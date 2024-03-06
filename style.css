@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: dodgerblue;
+    font-family: 'Fredoka One', sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #FAB201;
+    -webkit-text-stroke: 5px white;
+    font-size: 90px;
+  }
+  
+  
+  .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .game-cell {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid #FAB201;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FAB201;
+    cursor: pointer;
+    border-radius: 10px; /* Adjust the border-radius value for rounded corners */
+  }
+  
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  
+  p {
+    color: white;
+    margin: 0;
+    font-size: 16px;
+  }
+  
